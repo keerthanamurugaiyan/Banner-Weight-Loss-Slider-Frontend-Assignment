@@ -63,7 +63,7 @@ const HeroSection = () => {
         <div className="col-12 col-lg-6 text-center position-relative">
           <div className="ellipse-bg"></div>
           <img src={Joult} alt="Product" className="product-img img-fluid position-relative z-2" />
-          <div className="d-none d-md-block circle-label top-left">Quick and <br /> Safe</div>
+          <div className="d-none d-md-block d-flex justify-content-center align-self-center circle-label top-left">Quick and <br /> Safe</div>
           <div className="d-none d-md-block circle-label top-right">Weight Lose</div>
           <div className="d-none d-md-block circle-label bottom-left">Goal weight Reached</div>
         </div>
